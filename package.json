@@ -1,0 +1,19 @@
+{
+  "name": "practice-tdd",
+  "version": "1.0.0",
+  "description": "practice TDD with mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Jae Shin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.75.0"
+  }
+}
